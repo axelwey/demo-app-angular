@@ -10,6 +10,8 @@ import { Component2 } from '../component2/component2';
 export class Component1 {
 kleur_type="blue";
 tekst_type="parent"
+kleur2="yellow";
+tekst_type2="tweede "
 verander_kleur(){
   this.kleur_type="green";
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-component2',
@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './component2.css',
 })
 export class Component2 {
-
+@Input() kleur:string='red'
+@Input() tekst:string='default tekst'
 }
